@@ -11,7 +11,8 @@ Source of https://mbsnovastudio.com (GitHub Pages, custom domain in `CNAME`). Pl
 
 - Turkish and English live in the same page: every text has a `lang="tr"` and a `lang="en"` twin; CSS shows the
   active language (`html[data-lang]`), `assets/js/site.js` switches it and remembers the choice.
-- Shared styles: `assets/css/site.css`. Fonts (Inter, Playfair Display; OFL) are self-hosted in `assets/fonts/`.
+- Shared styles: `assets/css/site.css`. Pages link it (and `site.js`) with `?v=N`; raise N in all four pages
+  whenever the CSS or JS changes, or browsers may pair new HTML with a cached old stylesheet (Pages caches 10 min). Fonts (Inter, Playfair Display; OFL) are self-hosted in `assets/fonts/`.
 - Images in `assets/img/` are web copies (WebP, 540x960 screenshots) of the store assets of each app.
 - Keep at the root: `CNAME`, `app-ads.txt` (AdMob), `google8c3ea22be4a5908c.html` (Search Console).
 - `/jewelia-privacy/` is served from the separate `mbsnovastudio/jewelia-privacy` repository; do not add a folder
