@@ -225,6 +225,10 @@ p { margin: 0; }
   box-shadow: 0 0 0 1px rgba(226,182,90,.28), inset 0 0 0 1px rgba(255,255,255,.07), 0 40px 70px -28px rgba(0,0,0,.85);
 }
 .phone img { display: block; width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 26px; background: #05070f; }
+/* Above-the-fold screenshot as a CSS background: loads at once, and only for the active language */
+.phone .shot { width: 100%; aspect-ratio: 9 / 16; border-radius: 26px; background: #05070f center / cover no-repeat; }
+.phone .shot-jewelia { background-image: url(/assets/img/jewelia/tr-2.webp); }
+html[data-lang="en"] .phone .shot-jewelia { background-image: url(/assets/img/jewelia/en-2.webp); }
 
 /* Three fanned phones that scale with their column */
 .phones { display: flex; justify-content: center; align-items: center; max-width: 520px; margin: 0 auto; }
