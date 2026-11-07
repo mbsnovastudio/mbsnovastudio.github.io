@@ -1,51 +1,348 @@
 <!doctype html>
-<html lang="en">
+<html lang="tr" data-lang="tr"
+  data-title-tr="MBS Nova Studio — Mobil oyunlar ve uygulamalar"
+  data-title-en="MBS Nova Studio — Mobile games and apps">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MBS Nova Studio</title>
-<meta name="description" content="MBS Nova Studio - mobile games. Jewelia, a royal match-3 puzzle.">
-<style>
-  :root { --navy: #141a3c; --navy2: #1f2758; --gold: #e2b65a; --text: #f3efe2; --muted: #b9b4a4; }
-  * { box-sizing: border-box; }
-  body { margin: 0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6;
-         color: var(--text); background: radial-gradient(circle at 50% 0, var(--navy2), var(--navy) 70%); min-height: 100vh; }
-  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 32px; }
-  h1 { font-size: 2em; letter-spacing: 0.06em; color: var(--gold); margin: 0; }
-  .tag { color: var(--muted); margin: 4px 0 40px; }
-  .game { display: flex; gap: 20px; align-items: center; background: rgba(255,255,255,0.05);
-          border: 1px solid rgba(226,182,90,0.45); border-radius: 18px; padding: 20px; }
-  .game img { width: 112px; height: 112px; border-radius: 24px; flex: none; }
-  .game h2 { margin: 0 0 4px; color: var(--gold); letter-spacing: 0.08em; }
-  .game p { margin: 2px 0; }
-  .muted { color: var(--muted); }
-  a { color: var(--gold); }
-  section { margin-top: 36px; }
-  footer { margin-top: 48px; color: var(--muted); font-size: 0.9em; }
-  @media (max-width: 480px) { .game { flex-direction: column; text-align: center; } }
-</style>
+<title>MBS Nova Studio — Mobil oyunlar ve uygulamalar</title>
+<script>(function(d){var l;try{l=localStorage.getItem('lang')}catch(e){}if(l!=='tr'&&l!=='en')l=/^tr\b/i.test(navigator.language||'')?'tr':'en';d.setAttribute('data-lang',l);d.lang=l;d.className+=' js';var t=d.getAttribute('data-title-'+l);if(t)document.title=t})(document.documentElement)</script>
+<meta name="description" content="MBS Nova Studio, Android için özenle tasarlanmış mobil oyunlar ve uygulamalar geliştirir: Jewelia mücevher eşleştirme bulmacası ve MBS Kasa bütçe, altın ve döviz takibi. Independent studio making mobile games and apps.">
+<link rel="canonical" href="https://mbsnovastudio.com/">
+<meta name="theme-color" content="#0b1029">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MBS Nova Studio">
+<meta property="og:url" content="https://mbsnovastudio.com/">
+<meta property="og:title" content="MBS Nova Studio — Mobil oyunlar ve uygulamalar">
+<meta property="og:description" content="Özenle tasarlanmış mobil oyunlar ve uygulamalar: Jewelia ve MBS Kasa, Google Play'de.">
+<meta property="og:image" content="https://mbsnovastudio.com/assets/img/og-studio.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MBS Nova Studio",
+  "url": "https://mbsnovastudio.com/",
+  "logo": "https://mbsnovastudio.com/assets/img/studio-icon-512.png",
+  "email": "info@mbsnovastudio.com",
+  "legalName": "MBS Global İnşaat Danışmanlık Sanayi ve Ticaret Limited Şirketi",
+  "sameAs": ["https://play.google.com/store/apps/developer?id=MBS+Nova+Studio"]
+}
+</script>
+<script src="/assets/js/site.js" defer></script>
 </head>
 <body>
-<main>
-  <h1>MBS NOVA STUDIO</h1>
-  <p class="tag">Mobile games &middot; Mobil oyunlar</p>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gold-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5d892"/><stop offset="1" stop-color="#e2b65a"/></linearGradient>
+  </defs>
+  <symbol id="i-star" viewBox="0 0 24 24"><path fill="url(#gold-grad)" d="M12 0Q15.36 8.64 24 12Q15.36 15.36 12 24Q8.64 15.36 0 12Q8.64 8.64 12 0Z"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 7l8.5 6 8.5-6"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M11 3l1.9 5.1L18 10l-5.1 1.9L11 17l-1.9-5.1L4 10l5.1-1.9z"/><path d="M18.5 15l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-device" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M11 18h2"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.3-4.9L4 8"/><path d="M4 3v5h5"/><path d="M4 13a8 8 0 0 0 14.3 4.9L20 16"/><path d="M20 21v-5h-5"/></symbol>
+</svg>
 
-  <div class="game">
-    <img src="jewelia-icon.png" alt="Jewelia icon">
-    <div>
-      <h2>JEWELIA</h2>
-      <p>A royal match-3 puzzle with 300 levels. Coming soon to Google Play.</p>
-      <p class="muted">300 seviyeli kraliyet temalı eşleştirme bulmacası. Yakında Google Play'de.</p>
-      <p><a href="https://mbsnovastudio.github.io/jewelia-privacy/">Privacy Policy &middot; Gizlilik Politikası</a></p>
+<a class="skip-link" href="#main"><span lang="tr">İçeriğe geç</span><span lang="en">Skip to content</span></a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="MBS Nova Studio">
+      <svg class="brand-mark" aria-hidden="true"><use href="#i-star"/></svg>
+      <span class="brand-name">MBS Nova<small>STUDIO</small></span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Menü / Menu">
+      <a href="/#apps"><span lang="tr">Ürünler</span><span lang="en">Products</span></a>
+      <a href="/#studio"><span lang="tr">Stüdyo</span><span lang="en">Studio</span></a>
+      <a href="/#contact"><span lang="tr">İletişim</span><span lang="en">Contact</span></a>
+    </nav>
+    <div class="lang-switch" role="group" aria-label="Dil / Language">
+      <button type="button" data-set-lang="tr" aria-pressed="true" title="Türkçe">TR</button>
+      <button type="button" data-set-lang="en" aria-pressed="false" title="English">EN</button>
     </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü / Menu">
+      <svg class="icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
+      <svg class="icon-close" aria-hidden="true"><use href="#i-close"/></svg>
+    </button>
   </div>
+</header>
 
-  <section>
-    <h3>Contact &middot; İletişim</h3>
-    <p><a href="mailto:mbsnovastudio@gmail.com">mbsnovastudio@gmail.com</a></p>
+<main id="main">
+
+  <section class="hero">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow"><svg aria-hidden="true"><use href="#i-star"/></svg>
+          <span lang="tr">Bağımsız mobil oyun ve uygulama stüdyosu</span><span lang="en">Independent mobile games &amp; apps studio</span>
+        </span>
+        <h1>
+          <span lang="tr">Keyifle oynanan oyunlar, <em>güvenle</em> kullanılan uygulamalar.</span>
+          <span lang="en">Games people love to play, apps they can <em>trust</em>.</span>
+        </h1>
+        <p class="lead" lang="tr">MBS Nova Studio; rahatlatıcı bulmaca oyunları ve gizliliğe saygılı günlük uygulamalar geliştirir. Her ürünü sade, hızlı ve keyifli olsun diye en ince ayrıntısına kadar elle ayarlarız.</p>
+        <p class="lead" lang="en">MBS Nova Studio builds relaxing puzzle games and privacy-respecting everyday apps. We hand-tune every product down to the last detail so it feels simple, fast and polished.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#apps"><span lang="tr">Ürünlerimizi keşfedin</span><span lang="en">Explore our products</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-ghost" href="#contact"><span lang="tr">Bize ulaşın</span><span lang="en">Get in touch</span></a>
+        </div>
+        <div class="hero-proof">
+          <div class="icons">
+            <img src="/assets/img/jewelia-icon.webp" alt="" width="40" height="40">
+            <img src="/assets/img/kasa-icon.webp" alt="" width="40" height="40">
+          </div>
+          <p lang="tr"><strong>Jewelia</strong> ve <strong>MBS Kasa</strong> Google Play'de yayında</p>
+          <p lang="en"><strong>Jewelia</strong> and <strong>MBS Kasa</strong> are live on Google Play</p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="glow"></div>
+        <div class="phone ph-a"><img src="/assets/img/kasa/01-ozet.webp" alt="" width="540" height="960"></div>
+        <div class="phone ph-b">
+          <img lang="tr" src="/assets/img/jewelia/tr-2.webp" alt="" width="540" height="960" loading="lazy">
+          <img lang="en" src="/assets/img/jewelia/en-2.webp" alt="" width="540" height="960" loading="lazy">
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer>&copy; 2026 MBS Nova Studio</footer>
+  <section class="section" id="apps">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker"><span lang="tr">Ürünler</span><span lang="en">Products</span></p>
+        <h2><span lang="tr">Oyunlarımız ve uygulamalarımız</span><span lang="en">Our games &amp; apps</span></h2>
+        <p lang="tr">Her biri tek bir işi çok iyi yapmak için tasarlandı. Hepsi Google Play'de, ücretsiz.</p>
+        <p lang="en">Each one is designed to do one thing really well. All free on Google Play.</p>
+      </div>
+
+      <div class="products">
+        <article class="product product--jewelia reveal" aria-labelledby="p-jewelia">
+          <div class="product-body">
+            <div class="product-head">
+              <img class="app-icon" src="/assets/img/jewelia-icon.webp" alt="Jewelia" width="72" height="72" loading="lazy">
+              <div>
+                <h3 id="p-jewelia">Jewelia</h3>
+                <p class="product-kind"><span lang="tr">Mücevher eşleştirme bulmacası</span><span lang="en">Jewel match-3 puzzle</span></p>
+              </div>
+            </div>
+            <p class="product-lead" lang="tr">Ay ışığındaki bir saraya adım atın: kraliyet mücevherlerini eşleştirin, altın anahtarları kurtarın ve sarayın sırlarını keşfedin.</p>
+            <p class="product-lead" lang="en">Step into a moonlit palace: match royal jewels, free the golden keys and uncover the palace's secrets.</p>
+            <ul class="checks" lang="tr">
+              <li>300 elle ayarlanmış seviye, her 50 seviyede bir çok zor bölüm</li>
+              <li>Roket, bomba ve gökkuşağı küresiyle muhteşem kombolar</li>
+              <li>Buz, tahta sandık, zincir ve altın anahtar engelleri</li>
+              <li>İnternet gerekmez: her yerde çevrimdışı oynayın</li>
+            </ul>
+            <ul class="checks" lang="en">
+              <li>300 hand-tuned levels, with a super hard level every 50</li>
+              <li>Rockets, bombs and the rainbow orb for spectacular combos</li>
+              <li>Ice, wooden crates, chains and golden keys</li>
+              <li>No internet needed: play offline, anywhere</li>
+            </ul>
+            <p class="product-meta" lang="tr">Ücretsiz · Reklam içerir · Uygulama içi satın alma · Türkçe ve İngilizce</p>
+            <p class="product-meta" lang="en">Free · Contains ads · In-app purchases · English and Turkish</p>
+            <div class="product-actions">
+              <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.mbsgames.jewelia">
+                <img lang="tr" src="/assets/img/google-play-tr.png" alt="Jewelia'yı Google Play'den indirin" width="175" height="52" loading="lazy">
+                <img lang="en" src="/assets/img/google-play-en.png" alt="Get Jewelia on Google Play" width="175" height="52" loading="lazy">
+              </a>
+              <a class="link-arrow" href="/jewelia/"><span lang="tr">Oyunu inceleyin</span><span lang="en">View the game</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product-media" aria-hidden="true">
+            <div class="phones">
+              <div class="phone"><img lang="tr" src="/assets/img/jewelia/tr-0.webp" alt="" width="540" height="960" loading="lazy"><img lang="en" src="/assets/img/jewelia/en-0.webp" alt="" width="540" height="960" loading="lazy"></div>
+              <div class="phone"><img lang="tr" src="/assets/img/jewelia/tr-1.webp" alt="" width="540" height="960" loading="lazy"><img lang="en" src="/assets/img/jewelia/en-1.webp" alt="" width="540" height="960" loading="lazy"></div>
+              <div class="phone"><img lang="tr" src="/assets/img/jewelia/tr-5.webp" alt="" width="540" height="960" loading="lazy"><img lang="en" src="/assets/img/jewelia/en-5.webp" alt="" width="540" height="960" loading="lazy"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product product--kasa reveal" aria-labelledby="p-kasa">
+          <div class="product-body">
+            <div class="product-head">
+              <img class="app-icon" src="/assets/img/kasa-icon.webp" alt="MBS Kasa" width="72" height="72" loading="lazy">
+              <div>
+                <h3 id="p-kasa">MBS Kasa</h3>
+                <p class="product-kind"><span lang="tr">Bütçe, altın ve döviz takibi</span><span lang="en">Budget, gold &amp; currency tracker</span></p>
+              </div>
+            </div>
+            <p class="product-lead" lang="tr">Hesaplarınızı, bütçenizi, faturalarınızı ve altın-döviz birikiminizi tek yerde, cihazınızda şifreli olarak takip edin.</p>
+            <p class="product-lead" lang="en">Track your accounts, budgets, bills and gold &amp; currency savings in one place, encrypted on your device.</p>
+            <ul class="checks" lang="tr">
+              <li>Gelir-gider, borç-alacak, fatura ve kredi kartı takibi</li>
+              <li>Aylık bütçeler, birikim hedefleri ve raporlar</li>
+              <li>Altın, döviz ve kripto portföyü; fiyat alarmları</li>
+              <li>Hesap açmak gerekmez; şifreli veritabanı, PIN ve biyometrik kilit</li>
+            </ul>
+            <ul class="checks" lang="en">
+              <li>Income, expenses, debts, bills and credit cards</li>
+              <li>Monthly budgets, savings goals and reports</li>
+              <li>Gold, currency and crypto portfolio with price alerts</li>
+              <li>No account needed; encrypted database, PIN and biometric lock</li>
+            </ul>
+            <p class="product-meta" lang="tr">Ücretsiz · İsteğe bağlı reklamsız Premium · Türkiye'de, Türkçe</p>
+            <p class="product-meta" lang="en">Free · Optional ad-free Premium · Available in Türkiye, in Turkish</p>
+            <div class="product-actions">
+              <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.mbs.kasa">
+                <img lang="tr" src="/assets/img/google-play-tr.png" alt="MBS Kasa'yı Google Play'den indirin" width="175" height="52" loading="lazy">
+                <img lang="en" src="/assets/img/google-play-en.png" alt="Get MBS Kasa on Google Play" width="175" height="52" loading="lazy">
+              </a>
+              <a class="link-arrow" href="/kasa/"><span lang="tr">Uygulamayı inceleyin</span><span lang="en">View the app</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product-media" aria-hidden="true">
+            <div class="phones">
+              <div class="phone"><img src="/assets/img/kasa/02-cuzdan.webp" alt="" width="540" height="960" loading="lazy"></div>
+              <div class="phone"><img src="/assets/img/kasa/01-ozet.webp" alt="" width="540" height="960" loading="lazy"></div>
+              <div class="phone"><img src="/assets/img/kasa/05-portfoy.webp" alt="" width="540" height="960" loading="lazy"></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="studio">
+    <div class="wrap">
+      <div class="studio-grid">
+        <div class="studio-copy reveal">
+          <p class="kicker"><span lang="tr">Stüdyo</span><span lang="en">Studio</span></p>
+          <h2><span lang="tr">Az ama özenli ürünler.</span><span lang="en">Fewer products, made with care.</span></h2>
+          <p lang="tr">MBS Nova Studio, mobil oyunlar ve uygulamalar geliştiren bağımsız bir stüdyodur. Fikirden tasarıma, geliştirmeden teste kadar her aşamayı kendimiz yürütürüz.</p>
+          <p lang="en">MBS Nova Studio is an independent studio making mobile games and apps. We run every step ourselves, from the first idea and design to development and testing.</p>
+          <p lang="tr">Amacımız; açtığınızda sizi yormayan, gereksiz izin ve üyelik istemeyen, yıllarca keyifle kullanacağınız ürünler yapmak.</p>
+          <p lang="en">Our goal is simple: products that feel calm the moment you open them, never ask for needless permissions or sign-ups, and stay a pleasure to use for years.</p>
+        </div>
+        <div class="values">
+          <div class="value reveal">
+            <div class="value-icon"><svg aria-hidden="true"><use href="#i-sparkle"/></svg></div>
+            <h3><span lang="tr">Özenli tasarım</span><span lang="en">Crafted with care</span></h3>
+            <p lang="tr">Her seviyeyi, her ekranı ve her animasyonu elle ayarlar; sade ve cilalı bir deneyim hedefleriz.</p>
+            <p lang="en">We hand-tune every level, screen and animation, aiming for an experience that is simple and polished.</p>
+          </div>
+          <div class="value reveal">
+            <div class="value-icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></div>
+            <h3><span lang="tr">Gizliliğe saygı</span><span lang="en">Privacy first</span></h3>
+            <p lang="tr">Ürünlerimiz hesap açmanızı istemez. Veriyi en aza indirir, ne topladığımızı gizlilik politikalarımızda açıkça yazarız.</p>
+            <p lang="en">Our products never require an account. We keep data to a minimum and say exactly what we collect in our privacy policies.</p>
+          </div>
+          <div class="value reveal">
+            <div class="value-icon"><svg aria-hidden="true"><use href="#i-device"/></svg></div>
+            <h3><span lang="tr">Her yerde çalışır</span><span lang="en">Works anywhere</span></h3>
+            <p lang="tr">Jewelia internetsiz oynanır; MBS Kasa verilerinizi kendi cihazınızda, şifreli olarak saklar.</p>
+            <p lang="en">Jewelia plays fully offline; MBS Kasa keeps your data encrypted on your own device.</p>
+          </div>
+          <div class="value reveal">
+            <div class="value-icon"><svg aria-hidden="true"><use href="#i-refresh"/></svg></div>
+            <h3><span lang="tr">Sürekli gelişim</span><span lang="en">Always improving</span></h3>
+            <p lang="tr">Oyuncularımızı ve kullanıcılarımızı dinler, ürünlerimizi düzenli güncellemelerle iyileştiririz.</p>
+            <p lang="en">We listen to our players and users, and keep improving our products with regular updates.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat"><b>2</b><span lang="tr">Google Play'de yayında ürün</span><span lang="en">Products live on Google Play</span></div>
+        <div class="stat"><b>300</b><span lang="tr">Jewelia seviyesi</span><span lang="en">Levels in Jewelia</span></div>
+        <div class="stat"><b>0</b><span lang="tr">Zorunlu üyelik</span><span lang="en">Sign-ups required</span></div>
+        <div class="stat"><b>TR · EN</b><span lang="tr">Dil desteği</span><span lang="en">Languages</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-card reveal">
+        <p class="kicker"><span lang="tr">İletişim</span><span lang="en">Contact</span></p>
+        <h2><span lang="tr">Bize ulaşın</span><span lang="en">Get in touch</span></h2>
+        <p lang="tr">Destek, geri bildirim, iş birliği ve basın talepleriniz için bize e-posta gönderin.</p>
+        <p lang="en">Email us for support, feedback, partnerships or press enquiries.</p>
+        <div class="email-row">
+          <a class="btn btn-primary" href="mailto:info@mbsnovastudio.com"><svg aria-hidden="true"><use href="#i-mail"/></svg>info@mbsnovastudio.com</a>
+          <button class="btn btn-ghost copy-btn" type="button" data-copy="info@mbsnovastudio.com">
+            <svg aria-hidden="true"><use href="#i-copy"/></svg>
+            <span class="c-idle"><span lang="tr">Adresi kopyala</span><span lang="en">Copy address</span></span>
+            <span class="c-done" aria-live="polite"><span lang="tr">Kopyalandı</span><span lang="en">Copied</span></span>
+          </button>
+        </div>
+        <div class="contact-topics">
+          <div class="topic">
+            <h3><span lang="tr">Destek</span><span lang="en">Support</span></h3>
+            <p lang="tr">Sorun bildirirken uygulamanın adını, sürümünü ve cihaz modelinizi yazmanız çözümü hızlandırır.</p>
+            <p lang="en">When reporting an issue, include the app name, its version and your device model so we can help faster.</p>
+          </div>
+          <div class="topic">
+            <h3><span lang="tr">İş birliği</span><span lang="en">Partnerships</span></h3>
+            <p lang="tr">Yayıncılık, reklam ve ortaklık tekliflerinizi de aynı adrese gönderebilirsiniz.</p>
+            <p lang="en">Publishing, advertising and partnership proposals are welcome at the same address.</p>
+          </div>
+          <div class="topic">
+            <h3><span lang="tr">Gizlilik</span><span lang="en">Privacy</span></h3>
+            <p lang="tr">Verilerinize ilişkin ayrıntılar: <a href="/jewelia-privacy/">Jewelia</a> ve <a href="https://mbs-kasa.mbsnova.workers.dev/privacy">MBS Kasa</a> gizlilik politikaları.</p>
+            <p lang="en">How we handle your data: the <a href="/jewelia-privacy/">Jewelia</a> and <a href="https://mbs-kasa.mbsnova.workers.dev/privacy">MBS Kasa</a> privacy policies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="/" aria-label="MBS Nova Studio">
+          <svg class="brand-mark" aria-hidden="true"><use href="#i-star"/></svg>
+          <span class="brand-name">MBS Nova<small>STUDIO</small></span>
+        </a>
+        <p lang="tr">Android için özenle tasarlanmış mobil oyunlar ve uygulamalar.</p>
+        <p lang="en">Thoughtfully crafted mobile games and apps for Android.</p>
+      </div>
+      <div>
+        <h3><span lang="tr">Ürünler</span><span lang="en">Products</span></h3>
+        <ul>
+          <li><a href="/jewelia/">Jewelia</a></li>
+          <li><a href="/kasa/">MBS Kasa</a></li>
+          <li><a href="https://play.google.com/store/apps/developer?id=MBS+Nova+Studio"><span lang="tr">Google Play sayfamız</span><span lang="en">Our Google Play page</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3><span lang="tr">Yasal</span><span lang="en">Legal</span></h3>
+        <ul>
+          <li><a href="/jewelia-privacy/"><span lang="tr">Jewelia gizlilik politikası</span><span lang="en">Jewelia privacy policy</span></a></li>
+          <li><a href="https://mbs-kasa.mbsnova.workers.dev/privacy"><span lang="tr">MBS Kasa gizlilik politikası</span><span lang="en">MBS Kasa privacy policy</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3><span lang="tr">İletişim</span><span lang="en">Contact</span></h3>
+        <ul>
+          <li><a href="mailto:info@mbsnovastudio.com">info@mbsnovastudio.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 MBS Nova Studio · MBS Global İnşaat Danışmanlık Sanayi ve Ticaret Ltd. Şti.</p>
+      <p lang="tr">Google Play ve Google Play logosu, Google LLC'nin ticari markalarıdır. · Bu site çerez kullanmaz.</p>
+      <p lang="en">Google Play and the Google Play logo are trademarks of Google LLC. · This site uses no cookies.</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
