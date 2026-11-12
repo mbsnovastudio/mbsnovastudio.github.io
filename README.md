@@ -17,4 +17,6 @@ Source of https://mbsnovastudio.com (GitHub Pages, custom domain in `CNAME`). Pl
 - Keep at the root: `CNAME`, `app-ads.txt` (AdMob), `google8c3ea22be4a5908c.html` (Search Console).
 - `/jewelia-privacy/` is served from the separate `mbsnovastudio/jewelia-privacy` repository; do not add a folder
   with that name here.
+- `jewelia/levels/` holds the signed remote level packs the Jewelia game downloads (`manifest.json` + `pack_*.json`).
+  Do not edit or move them by hand; robots.txt keeps them out of search results.
 - Local preview: `python -m http.server 8080`, then open http://localhost:8080 (paths are root-absolute).

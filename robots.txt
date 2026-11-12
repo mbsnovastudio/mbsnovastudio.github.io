@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /jewelia/levels/
 
 Sitemap: https://mbsnovastudio.com/sitemap.xml

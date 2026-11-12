@@ -125,7 +125,7 @@ p { margin: 0; }
 .brand:hover { color: var(--text); }
 .brand-mark { width: 30px; height: 30px; flex: none; filter: drop-shadow(0 0 10px rgba(226,182,90,.45)); }
 .brand-name { font-family: var(--serif); font-weight: 700; font-size: 1.22rem; letter-spacing: 0.01em; white-space: nowrap; }
-.brand-name small { font-family: var(--sans); font-weight: 500; font-size: .72rem; letter-spacing: .22em; color: var(--gold); margin-left: 6px; }
+.brand-name small { font-family: var(--sans); font-weight: 500; font-size: .72rem; letter-spacing: .22em; color: var(--gold); margin-left: 1px; }
 
 .nav { display: flex; align-items: center; gap: 4px; }
 .nav a {
@@ -460,7 +460,7 @@ html[data-lang="en"] .phone .shot-jewelia { background-image: url(/assets/img/je
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--line); background: #090d22; padding: 56px 0 32px; color: var(--muted); font-size: .94rem; }
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 32px; }
-.footer-grid h3 { font-family: var(--sans); font-size: .78rem; letter-spacing: .18em; text-transform: uppercase; color: var(--dim); font-weight: 600; margin-bottom: 14px; }
+.footer-grid h2 { font-family: var(--sans); font-size: .78rem; letter-spacing: .18em; text-transform: uppercase; color: var(--dim); font-weight: 600; margin-bottom: 14px; }
 .footer-grid ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
 .footer-grid a { color: var(--muted); text-decoration: none; }
 .footer-grid a:hover { color: var(--text); }
