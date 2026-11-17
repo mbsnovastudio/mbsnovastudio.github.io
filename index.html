@@ -15,7 +15,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=6">
+<link rel="stylesheet" href="/assets/css/site.css?v=7">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MBS Nova Studio">
 <meta property="og:url" content="https://mbsnovastudio.com/">
@@ -45,7 +45,7 @@
   ]
 }
 </script>
-<script src="/assets/js/site.js?v=6" defer></script>
+<script src="/assets/js/site.js?v=7" defer></script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -80,11 +80,12 @@
     <nav class="nav" id="site-nav" aria-label="Menü / Menu">
       <a href="/#apps"><span lang="tr">Ürünler</span><span lang="en">Products</span></a>
       <a href="/#studio"><span lang="tr">Stüdyo</span><span lang="en">Studio</span></a>
+      <a href="/news/"><span lang="tr">Haberler</span><span lang="en">News</span></a>
       <a href="/#contact"><span lang="tr">İletişim</span><span lang="en">Contact</span></a>
     </nav>
     <div class="lang-switch" role="group" aria-label="Dil / Language">
-      <button type="button" data-set-lang="tr" aria-pressed="true" title="Türkçe">TR</button>
-      <button type="button" data-set-lang="en" aria-pressed="false" title="English">EN</button>
+      <button type="button" data-set-lang="en" aria-pressed="true" title="English">EN</button>
+      <button type="button" data-set-lang="tr" aria-pressed="false" title="Türkçe">TR</button>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü / Menu">
       <svg class="icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
@@ -115,10 +116,11 @@
         <div class="hero-proof">
           <div class="icons">
             <img src="/assets/img/jewelia-icon.webp" alt="" width="40" height="40">
+            <img src="/assets/img/jarlings-icon.webp" alt="" width="40" height="40">
             <img src="/assets/img/kasa-icon.webp" alt="" width="40" height="40">
           </div>
-          <p lang="tr"><strong>Jewelia</strong> ve <strong>MBS Kasa</strong> Google Play'de yayında; yenileri ve iOS sürümleri yolda</p>
-          <p lang="en"><strong>Jewelia</strong> and <strong>MBS Kasa</strong> are live on Google Play; more games, apps and iOS versions are on the way</p>
+          <p lang="tr"><strong>Jewelia</strong>, <strong>Jarlings</strong> ve <strong>MBS Kasa</strong> Google Play'de yayında; yenileri ve iOS sürümleri yolda</p>
+          <p lang="en"><strong>Jewelia</strong>, <strong>Jarlings</strong> and <strong>MBS Kasa</strong> are live on Google Play; more games, apps and iOS versions are on the way</p>
         </div>
       </div>
       <div class="hero-visual" aria-hidden="true">
@@ -164,8 +166,8 @@
               <li>Ice, wooden crates, chains and golden keys</li>
               <li>No internet needed: play offline, anywhere</li>
             </ul>
-            <p class="product-meta" lang="tr">Ücretsiz · Reklam içerir · Uygulama içi satın alma · Türkçe ve İngilizce</p>
-            <p class="product-meta" lang="en">Free · Contains ads · In-app purchases · English and Turkish</p>
+            <p class="product-meta" lang="tr">Ücretsiz · Reklam içerir · Uygulama içi satın alma · 7 dil</p>
+            <p class="product-meta" lang="en">Free · Contains ads · In-app purchases · 7 languages</p>
             <div class="product-actions">
               <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.mbsgames.jewelia">
                 <img lang="tr" src="/assets/img/google-play-tr.png" alt="Jewelia'yı Google Play'den indirin" width="175" height="52" loading="lazy">
@@ -180,6 +182,49 @@
               <div class="phone"><img lang="tr" src="/assets/img/jewelia/tr-0.webp" alt="" width="540" height="960" loading="lazy"><img lang="en" src="/assets/img/jewelia/en-0.webp" alt="" width="540" height="960" loading="lazy"></div>
               <div class="phone"><img lang="tr" src="/assets/img/jewelia/tr-1.webp" alt="" width="540" height="960" loading="lazy"><img lang="en" src="/assets/img/jewelia/en-1.webp" alt="" width="540" height="960" loading="lazy"></div>
               <div class="phone"><img lang="tr" src="/assets/img/jewelia/tr-5.webp" alt="" width="540" height="960" loading="lazy"><img lang="en" src="/assets/img/jewelia/en-5.webp" alt="" width="540" height="960" loading="lazy"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="product product--jarlings reveal" aria-labelledby="p-jarlings">
+          <div class="product-body">
+            <div class="product-head">
+              <img class="app-icon" src="/assets/img/jarlings-icon.webp" alt="Jarlings" width="72" height="72" loading="lazy">
+              <div>
+                <h3 id="p-jarlings">Jarlings</h3>
+                <p class="product-kind"><span lang="tr">Rahatlatıcı bulmaca</span><span lang="en">Cozy puzzle</span></p>
+              </div>
+            </div>
+            <p class="product-lead" lang="tr">Kocaman parlak gözlü minik cam kavanozlar evlerine dönmek istiyor. Onlara doğru sırayla dokunun, çarpışmalardan kaçının ve sıcacık yuvaları onarın.</p>
+            <p class="product-lead" lang="en">Tiny glass jars with big shiny eyes want to go home. Tap them in the right order, avoid the bumps and restore cozy havens.</p>
+            <ul class="checks" lang="tr">
+              <li>Sakin bir “önce kim?” bulmacası; her bölüm çözülebilir</li>
+              <li>Utangaç, uykucu ve başı dönen Jarling'lerle yeni sürprizler</li>
+              <li>Resim yapbozlarıyla sıcacık yuvaları yeniden canlandırın</li>
+              <li>Oyun odasında sıralama, buzda kayma, şekil yerleştirme ve resim yapbozu</li>
+            </ul>
+            <ul class="checks" lang="en">
+              <li>A gentle “who goes first?” puzzle; every level is solvable</li>
+              <li>Shy, sleepy and dizzy Jarlings bring new twists</li>
+              <li>Bring cozy havens back to life with picture puzzles</li>
+              <li>A play room with sorting, ice slides, shape fits and picture puzzles</li>
+            </ul>
+            <p class="product-meta" lang="tr">Ücretsiz · Reklam içerir · Uygulama içi satın alma · 7 dil</p>
+            <p class="product-meta" lang="en">Free · Contains ads · In-app purchases · 7 languages</p>
+            <div class="product-actions">
+              <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.mbsnovastudio.jarlings">
+                <img lang="tr" src="/assets/img/google-play-tr.png" alt="Jarlings'i Google Play'den indirin" width="175" height="52" loading="lazy">
+                <img lang="en" src="/assets/img/google-play-en.png" alt="Get Jarlings on Google Play" width="175" height="52" loading="lazy">
+              </a>
+              <span class="store-soon"><svg aria-hidden="true"><use href="#i-device"/></svg><span><small lang="tr">Yakında</small><small lang="en">Coming soon</small><b>App Store</b></span></span>
+              <a class="link-arrow" href="/jarlings/"><span lang="tr">Oyunu inceleyin</span><span lang="en">View the game</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+          <div class="product-media" aria-hidden="true">
+            <div class="phones">
+              <div class="phone"><img src="/assets/img/jarlings/01.webp" alt="" width="540" height="960" loading="lazy"></div>
+              <div class="phone"><img src="/assets/img/jarlings/05.webp" alt="" width="540" height="960" loading="lazy"></div>
+              <div class="phone"><img src="/assets/img/jarlings/04.webp" alt="" width="540" height="960" loading="lazy"></div>
             </div>
           </div>
         </article>
@@ -207,8 +252,8 @@
               <li>Gold, currency and crypto portfolio with price alerts</li>
               <li>No account needed; encrypted database, PIN and biometric lock</li>
             </ul>
-            <p class="product-meta" lang="tr">Ücretsiz · İsteğe bağlı reklamsız Premium · Türkiye'de, Türkçe</p>
-            <p class="product-meta" lang="en">Free · Optional ad-free Premium · Available in Türkiye, in Turkish</p>
+            <p class="product-meta" lang="tr">Ücretsiz · İsteğe bağlı reklamsız Premium · Türkiye'de · 6 dil</p>
+            <p class="product-meta" lang="en">Free · Optional ad-free Premium · Available in Türkiye · 6 languages</p>
             <div class="product-actions">
               <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.mbs.kasa">
                 <img lang="tr" src="/assets/img/google-play-tr.png" alt="MBS Kasa'yı Google Play'den indirin" width="175" height="52" loading="lazy">
@@ -273,7 +318,7 @@
         <div class="stat"><b><span lang="tr">Yolda</span><span lang="en">More</span></b><span lang="tr">Yeni oyunlar ve uygulamalar</span><span lang="en">Games &amp; apps on the way</span></div>
         <div class="stat"><b><span lang="tr">Ücretsiz</span><span lang="en">Free</span></b><span lang="tr">Tüm ürünlerimiz</span><span lang="en">All our products</span></div>
         <div class="stat"><b>0</b><span lang="tr">Zorunlu üyelik</span><span lang="en">Sign-ups required</span></div>
-        <div class="stat"><b>TR · EN</b><span lang="tr">Dil desteği</span><span lang="en">Languages</span></div>
+        <div class="stat"><b><span lang="tr">Dünya</span><span lang="en">Global</span></b><span lang="tr">Birçok dilde, dünya genelinde</span><span lang="en">Many languages, worldwide</span></div>
       </div>
     </div>
   </section>
@@ -283,8 +328,8 @@
       <div class="contact-card reveal">
         <p class="kicker"><span lang="tr">İletişim</span><span lang="en">Contact</span></p>
         <h2><span lang="tr">Bize ulaşın</span><span lang="en">Get in touch</span></h2>
-        <p lang="tr">Destek, geri bildirim, iş birliği ve basın talepleriniz için bize e-posta gönderin.</p>
-        <p lang="en">Email us for support, feedback, partnerships or press enquiries.</p>
+        <p lang="tr">Destek, geri bildirim, iş birliği ve basın talepleriniz için bize e-posta gönderin. Logolar ve bilgiler <a href="/press/">basın kitimizde</a>.</p>
+        <p lang="en">Email us for support, feedback, partnerships or press enquiries. Logos and facts are in our <a href="/press/">press kit</a>.</p>
         <div class="email-row">
           <a class="btn btn-primary" href="mailto:info@mbsnovastudio.com"><svg aria-hidden="true"><use href="#i-mail"/></svg>info@mbsnovastudio.com</a>
           <button class="btn btn-ghost copy-btn" type="button" data-copy="info@mbsnovastudio.com">
@@ -306,8 +351,8 @@
           </div>
           <div class="topic">
             <h3><span lang="tr">Gizlilik</span><span lang="en">Privacy</span></h3>
-            <p lang="tr">Verilerinize ilişkin ayrıntılar: <a href="/jewelia-privacy/">Jewelia</a> ve <a href="https://mbs-kasa.mbsnova.workers.dev/privacy">MBS Kasa</a> gizlilik politikaları.</p>
-            <p lang="en">How we handle your data: the <a href="/jewelia-privacy/">Jewelia</a> and <a href="https://mbs-kasa.mbsnova.workers.dev/privacy">MBS Kasa</a> privacy policies.</p>
+            <p lang="tr">Verilerinize ilişkin ayrıntılar: <a href="/jewelia-privacy/">Jewelia</a>, <a href="/jarlings-privacy/">Jarlings</a> ve <a href="https://mbs-kasa.mbsnova.workers.dev/privacy">MBS Kasa</a> gizlilik politikaları.</p>
+            <p lang="en">How we handle your data: the <a href="/jewelia-privacy/">Jewelia</a>, <a href="/jarlings-privacy/">Jarlings</a> and <a href="https://mbs-kasa.mbsnova.workers.dev/privacy">MBS Kasa</a> privacy policies.</p>
           </div>
         </div>
       </div>
@@ -337,6 +382,7 @@
         <h2><span lang="tr">Ürünler</span><span lang="en">Products</span></h2>
         <ul>
           <li><a href="/jewelia/">Jewelia</a></li>
+          <li><a href="/jarlings/">Jarlings</a></li>
           <li><a href="/kasa/">MBS Kasa</a></li>
           <li><a href="https://play.google.com/store/apps/developer?id=MBS+Nova+Studio"><span lang="tr">Google Play sayfamız</span><span lang="en">Our Google Play page</span></a></li>
         </ul>
@@ -345,6 +391,7 @@
         <h2><span lang="tr">Yasal</span><span lang="en">Legal</span></h2>
         <ul>
           <li><a href="/jewelia-privacy/"><span lang="tr">Jewelia gizlilik politikası</span><span lang="en">Jewelia privacy policy</span></a></li>
+          <li><a href="/jarlings-privacy/"><span lang="tr">Jarlings gizlilik politikası</span><span lang="en">Jarlings privacy policy</span></a></li>
           <li><a href="https://mbs-kasa.mbsnova.workers.dev/privacy"><span lang="tr">MBS Kasa gizlilik politikası</span><span lang="en">MBS Kasa privacy policy</span></a></li>
         </ul>
       </div>
@@ -352,6 +399,8 @@
         <h2><span lang="tr">İletişim</span><span lang="en">Contact</span></h2>
         <ul>
           <li><a href="mailto:info@mbsnovastudio.com">info@mbsnovastudio.com</a></li>
+          <li><a href="/news/"><span lang="tr">Haberler</span><span lang="en">News</span></a></li>
+          <li><a href="/press/"><span lang="tr">Basın kiti</span><span lang="en">Press kit</span></a></li>
         </ul>
       </div>
     </div>

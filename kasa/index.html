@@ -15,7 +15,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/site.css?v=6">
+<link rel="stylesheet" href="/assets/css/site.css?v=7">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MBS Nova Studio">
 <meta property="og:url" content="https://mbsnovastudio.com/kasa/">
@@ -35,13 +35,13 @@
   "image": "https://mbsnovastudio.com/assets/img/kasa-icon.webp",
   "operatingSystem": "Android",
   "applicationCategory": "FinanceApplication",
-  "inLanguage": "tr",
+  "inLanguage": ["tr", "en", "es", "fr", "hi", "zh"],
   "installUrl": "https://play.google.com/store/apps/details?id=com.mbs.kasa",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
   "author": { "@type": "Organization", "name": "MBS Nova Studio", "url": "https://mbsnovastudio.com/" }
 }
 </script>
-<script src="/assets/js/site.js?v=6" defer></script>
+<script src="/assets/js/site.js?v=7" defer></script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -77,11 +77,12 @@
     <nav class="nav" id="site-nav" aria-label="Menü / Menu">
       <a href="/#apps" aria-current="page"><span lang="tr">Ürünler</span><span lang="en">Products</span></a>
       <a href="/#studio"><span lang="tr">Stüdyo</span><span lang="en">Studio</span></a>
+      <a href="/news/"><span lang="tr">Haberler</span><span lang="en">News</span></a>
       <a href="/#contact"><span lang="tr">İletişim</span><span lang="en">Contact</span></a>
     </nav>
     <div class="lang-switch" role="group" aria-label="Dil / Language">
-      <button type="button" data-set-lang="tr" aria-pressed="true" title="Türkçe">TR</button>
-      <button type="button" data-set-lang="en" aria-pressed="false" title="English">EN</button>
+      <button type="button" data-set-lang="en" aria-pressed="true" title="English">EN</button>
+      <button type="button" data-set-lang="tr" aria-pressed="false" title="Türkçe">TR</button>
     </div>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menü / Menu">
       <svg class="icon-open" aria-hidden="true"><use href="#i-menu"/></svg>
@@ -109,10 +110,10 @@
         <p class="lead" lang="tr">Paranız, şifreli ve tek yerde. Hesaplarınızı, bütçenizi, faturalarınızı ve altın-döviz birikiminizi kendi cihazınızda güvenle takip edin.</p>
         <p class="lead" lang="en">Your money, encrypted and in one place. Track your accounts, budgets, bills and gold &amp; currency savings safely on your own device.</p>
         <div class="chips" lang="tr">
-          <span class="chip">Finans</span><span class="chip">Ücretsiz</span><span class="chip">Hesap gerekmez</span><span class="chip">Şifreli</span><span class="chip">Türkçe</span>
+          <span class="chip">Finans</span><span class="chip">Ücretsiz</span><span class="chip">Hesap gerekmez</span><span class="chip">Şifreli</span><span class="chip">6 dil</span>
         </div>
         <div class="chips" lang="en">
-          <span class="chip">Finance</span><span class="chip">Free</span><span class="chip">No account needed</span><span class="chip">Encrypted</span><span class="chip">Turkish · Türkiye</span>
+          <span class="chip">Finance</span><span class="chip">Free</span><span class="chip">No account needed</span><span class="chip">Encrypted</span><span class="chip">6 languages</span>
         </div>
         <div class="p-actions">
           <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.mbs.kasa">
@@ -249,7 +250,7 @@
             <div><dt><span lang="tr">Kategori</span><span lang="en">Category</span></dt><dd><span lang="tr">Finans</span><span lang="en">Finance</span></dd></div>
             <div><dt><span lang="tr">Fiyat</span><span lang="en">Price</span></dt><dd><span lang="tr">Ücretsiz · reklam içerir · isteğe bağlı Premium</span><span lang="en">Free · contains ads · optional Premium</span></dd></div>
             <div><dt>Platform</dt><dd><span lang="tr">Android (Google Play) · iOS yakında</span><span lang="en">Android (Google Play) · iOS coming soon</span></dd></div>
-            <div><dt><span lang="tr">Dil ve bölge</span><span lang="en">Language &amp; region</span></dt><dd><span lang="tr">Türkçe · Türkiye</span><span lang="en">Turkish · Türkiye</span></dd></div>
+            <div><dt><span lang="tr">Dil ve bölge</span><span lang="en">Language &amp; region</span></dt><dd><span lang="tr">6 dil (TR, EN, ES, FR, HI, ZH) · şimdilik yalnızca Türkiye'de</span><span lang="en">6 languages (TR, EN, ES, FR, HI, ZH) · Türkiye only for now</span></dd></div>
             <div><dt><span lang="tr">Hesap</span><span lang="en">Account</span></dt><dd><span lang="tr">Gerekmez</span><span lang="en">Not required</span></dd></div>
             <div><dt><span lang="tr">Gizlilik</span><span lang="en">Privacy</span></dt><dd><a href="https://mbs-kasa.mbsnova.workers.dev/privacy"><span lang="tr">Gizlilik politikası</span><span lang="en">Privacy policy (Turkish)</span></a></dd></div>
             <div><dt><span lang="tr">Destek</span><span lang="en">Support</span></dt><dd><a href="mailto:info@mbsnovastudio.com?subject=MBS%20Kasa">info@mbsnovastudio.com</a></dd></div>
@@ -302,6 +303,7 @@
         <h2><span lang="tr">Ürünler</span><span lang="en">Products</span></h2>
         <ul>
           <li><a href="/jewelia/">Jewelia</a></li>
+          <li><a href="/jarlings/">Jarlings</a></li>
           <li><a href="/kasa/">MBS Kasa</a></li>
           <li><a href="https://play.google.com/store/apps/developer?id=MBS+Nova+Studio"><span lang="tr">Google Play sayfamız</span><span lang="en">Our Google Play page</span></a></li>
         </ul>
@@ -310,6 +312,7 @@
         <h2><span lang="tr">Yasal</span><span lang="en">Legal</span></h2>
         <ul>
           <li><a href="/jewelia-privacy/"><span lang="tr">Jewelia gizlilik politikası</span><span lang="en">Jewelia privacy policy</span></a></li>
+          <li><a href="/jarlings-privacy/"><span lang="tr">Jarlings gizlilik politikası</span><span lang="en">Jarlings privacy policy</span></a></li>
           <li><a href="https://mbs-kasa.mbsnova.workers.dev/privacy"><span lang="tr">MBS Kasa gizlilik politikası</span><span lang="en">MBS Kasa privacy policy</span></a></li>
         </ul>
       </div>
@@ -317,6 +320,8 @@
         <h2><span lang="tr">İletişim</span><span lang="en">Contact</span></h2>
         <ul>
           <li><a href="mailto:info@mbsnovastudio.com">info@mbsnovastudio.com</a></li>
+          <li><a href="/news/"><span lang="tr">Haberler</span><span lang="en">News</span></a></li>
+          <li><a href="/press/"><span lang="tr">Basın kiti</span><span lang="en">Press kit</span></a></li>
         </ul>
       </div>
     </div>

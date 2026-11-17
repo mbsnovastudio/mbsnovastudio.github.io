@@ -311,7 +311,13 @@ html[data-lang="en"] .phone .shot-jewelia { background-image: url(/assets/img/je
     radial-gradient(55% 80% at 80% 50%, rgba(226, 182, 90, .2), transparent 70%),
     linear-gradient(135deg, #1a1a1f, #0b0b0e);
 }
-.product--kasa .product-media { order: -1; }
+.product--jarlings::before {
+  background:
+    radial-gradient(55% 80% at 20% 50%, rgba(255, 140, 96, .24), transparent 70%),
+    radial-gradient(60% 70% at 100% 0%, rgba(255, 196, 128, .12), transparent 70%),
+    linear-gradient(135deg, #241a30, #100e1f);
+}
+.product--jarlings .product-media { order: -1; }
 .product-head { display: flex; align-items: center; gap: 18px; margin-bottom: 20px; }
 .product-head h3 { font-family: var(--serif); font-size: clamp(1.8rem, 1.4rem + 1.4vw, 2.4rem); font-weight: 700; }
 .product-kind { color: var(--gold-2); font-size: .95rem; font-weight: 500; margin-top: 2px; }
@@ -323,7 +329,7 @@ html[data-lang="en"] .phone .shot-jewelia { background-image: url(/assets/img/je
 
 @media (max-width: 900px) {
   .product { grid-template-columns: minmax(0, 1fr); }
-  .product--kasa .product-media { order: 0; }
+  .product--jarlings .product-media { order: 0; }
   .product-media { margin-top: 8px; }
 }
 
@@ -431,7 +437,8 @@ html[data-lang="en"] .phone .shot-jewelia { background-image: url(/assets/img/je
 @media (max-width: 600px) { .features, .features--4 { grid-template-columns: 1fr; } }
 
 .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
-@media (max-width: 900px) { .split { grid-template-columns: minmax(0, 1fr); } }
+.split--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 900px) { .split, .split--3 { grid-template-columns: minmax(0, 1fr); } }
 
 .panel { padding: clamp(24px, 3vw, 36px); border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
 .panel h2 { font-size: clamp(1.6rem, 1.3rem + 1vw, 2rem); margin-bottom: 18px; }
@@ -479,3 +486,16 @@ html[data-lang="en"] .phone .shot-jewelia { background-image: url(/assets/img/je
 .not-found h1 { font-size: clamp(1.8rem, 1.4rem + 1.6vw, 2.6rem); margin: 18px 0 12px; }
 .not-found p { color: var(--muted); }
 .not-found .hero-actions { justify-content: center; }
+
+/* News and press kit */
+.news-list { display: grid; gap: 18px; max-width: 860px; }
+.news-item time { display: block; color: var(--dim); font-size: .9rem; margin-bottom: 10px; }
+.news-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.news-links .btn svg { width: 18px; height: 18px; }
+.logo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
+.logo-card { border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); overflow: hidden; }
+.logo-card .preview { display: grid; place-items: center; height: 170px; padding: 28px; background: #0b1029; }
+.logo-card .preview.light { background: #f6f1e4; }
+.logo-card .preview img { width: auto; height: auto; max-width: 100%; max-height: 114px; object-fit: contain; }
+.logo-card .meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; padding: 16px 20px; font-size: .95rem; }
+.logo-card .meta b { font-weight: 600; }
